@@ -14,7 +14,7 @@ test-bpf = []
 [dependencies]
 borsh = "0.9.1"
 #solana-program = { git = "https://github.com/zgendao/solana.git", tag = "v1.9.0-zgen" }#"1.8.1"
-solana-program = "1.9.0"
+solana-program = "1.8.7"
 spl-token = { path = "../../token/program", features = ["no-entrypoint"] }
 
 [dev-dependencies]
