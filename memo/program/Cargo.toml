@@ -12,7 +12,8 @@ no-entrypoint = []
 test-bpf = []
 
 [dependencies]
-solana-program = { git = "https://github.com/zgendao/solana.git", tag = "v1.9.0-zgen" }
+#solana-program = { git = "https://github.com/zgendao/solana.git", tag = "v1.9.0-zgen" }
+solana-program = 1.9.0
 
 [dev-dependencies]
 solana-program-test = "1.8.1"
