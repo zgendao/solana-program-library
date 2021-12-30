@@ -16,7 +16,7 @@ arrayref = "0.3.6"
 num-derive = "0.3"
 num-traits = "0.2"
 num_enum = "0.5.4"
-solana-program = { git = "https://github.com/zgendao/solana.git", tag = "v1.9.0-zgen" }
+solana-program = "1.9.0" #{ git = "https://github.com/zgendao/solana.git", tag = "v1.9.0-zgen" }
 thiserror = "1.0"
 
 [dev-dependencies]
